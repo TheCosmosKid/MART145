@@ -1,6 +1,7 @@
 nav {
     background-color: navy;
     padding: 10px;
+	color: black
 }
 
 a {
@@ -40,4 +41,26 @@ li {
 img {
     width: 500px;
     opacity: 0.9;
+}
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: navy;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    padding: 10px;
 }
